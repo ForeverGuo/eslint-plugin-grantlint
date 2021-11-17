@@ -1,4 +1,4 @@
-# eslint-plugin-gslint
+# eslint-plugin-grantlint
 
 自定义ESlint rule
 
@@ -10,20 +10,20 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-gslint`:
+Next, install `eslint-plugin-grantlint`:
 
 ```sh
-npm install eslint-plugin-gslint --save-dev
+npm install eslint-plugin-grantlint --save-dev
 ```
 
 ## Usage
 
-Add `gslint` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `grantlint` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "gslint"
+        "grantlint"
     ]
 }
 ```
@@ -34,7 +34,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "gslint/rule-name": 2
+        "grantlint/rule-name": 2
     }
 }
 ```
